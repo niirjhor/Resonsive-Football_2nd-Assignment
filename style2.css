@@ -249,7 +249,7 @@ td,th {
 .banner-img{
     width: 350px;
     height: 250px;
-    margin: 60px 5px 30px 5px;
+    margin: 60px 5px 30px 125px;
 }
 .group-stage-standings{
     display: flex;
@@ -273,6 +273,9 @@ td,th {
 .footer-container img{
     width: 271px;
     height: 63px;
+}
+.live{
+    margin-left: 120px;
 }
 }
 
