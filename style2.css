@@ -1,0 +1,176 @@
+/* common styles */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font color: #FFFFFF;
+}
+
+/* Cover portion Styles */
+.cover{
+    display: flex;
+    justify-content: center;
+    background-color: #2D25A0;
+    padding-top: 140px;
+    /* padding:140px 160px 80px 160px; */
+}
+.cover-title{
+    width: 485px;
+    height: 230px;
+    margin-right: 102px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cover-title h1{
+    font-size: 64px;
+    margin-bottom: 28px;
+    color: white;
+}
+.live a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding:10px 24px;
+    color: white;
+}
+.fa-arrow-right{
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.banner img{
+    width: 556px;
+    height: 438px;
+}
+
+ 
+/* Animation Sections Styles Start */
+
+.cover:hover .banner-img {
+transform: scale(1.1) rotate(150deg) skew(-10deg);
+transition: transform 0.2s ease-in;
+}
+
+/* Animation Sections Styles end */
+
+/* -- players gallery and styles-- */
+.players-gallary{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    row-gap: 27px;
+    margin-top: 70px;
+    margin-bottom: 165px;
+}
+.player img{
+    width: 100%;
+}
+.container{
+    background-color: white;
+    width: 1000px;
+    text-align: center;
+    padding-left: 143px;
+    padding-right: 143px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    text-align: justify;
+    font-weight: 400px;
+}
+.player h2{
+    text-align: start;
+    font-weight:700px;
+}
+
+
+/* -----Match Highlight Section Styles Start---- */
+.highlights_details_container{
+    width: 466px;
+    height: 309px;
+}
+.highlights_details_container h1{
+  font-size: 48px;
+    margin-bottom: 8px;
+}
+.details_of_highligts{
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+.highlights_details_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner-img{
+    width: 567px;
+    height: 427px;
+    margin-bottom: 50px;
+}
+
+.match-highlight{
+    display: flex;
+    justify-content: center;
+}
+/* -----Match Highlight Section Styles end---- */
+
+/* Addtional group stage infomation styles start */
+table {
+    border-collapse: collapse;
+}
+
+td,th {
+    border: 2px solid black;
+    padding: 0 10px;
+}
+.group-stage-standings{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    background-color: ivory;
+}
+/* Addtional group stage infomation styles end */
+/* Addional extra info styles start*/
+.Stats-of-the-tournament{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    column-gap: 5px;
+    background-color: honeydew;
+    padding-bottom: 60px;
+}
+/* Addional extra info styles end*/
+/* Footer section styles start */
+.footer-container{
+    width: 483px;
+    height: 213px;
+}
+
+.logo-img-container{
+    width: 483px;
+    height: 110px;
+}
+.logo-img-container img{
+    width: 100%;
+}
+.social-media-font{
+    color: gray;
+}
+.footer-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 63px;
+}
+.social-connections{
+    padding-left: 156px;
+    padding-right: 156px;    
+}
+.copywright{
+    padding-left: 123px;
+    padding-right: 123px;  
+}
+
+/* Footer section styles end */
