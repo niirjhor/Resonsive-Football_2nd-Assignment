@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    font color: #FFFFFF;
+    margin:0;
 }
 
 /* Cover portion Styles */
@@ -11,7 +11,6 @@ body{
     justify-content: center;
     background-color: #2D25A0;
     padding-top: 140px;
-    /* padding:140px 160px 80px 160px; */
 }
 .cover-title{
     width: 485px;
@@ -36,10 +35,11 @@ body{
     padding-left: 10px;
 }
 
-.banner img{
+.banner-img{
     width: 556px;
     height: 438px;
 }
+
 
  
 /* Animation Sections Styles Start */
@@ -163,6 +163,7 @@ td,th {
     flex-direction: column;
     align-items: center;
     margin-bottom: 63px;
+    margin-top: 20px;
 }
 .social-connections{
     padding-left: 156px;
@@ -174,3 +175,105 @@ td,th {
 }
 
 /* Footer section styles end */
+/* media quaries */
+@media only screen and (max-width:688px) {
+    body{
+        width: 688px;
+        max-width: 100%;
+    }
+    main{
+        max-width: 100%;
+    }
+    .footer-sec,.cover,.container,.match-highlight,.group-stage-standings,.Stats-of-the-tournament {
+        width: 100%;
+    }
+.cover{
+    width: 360px;
+    height: 695px;
+    padding-top: 0px;
+    display: grid;
+   grid-template-columns: repeat(1,1fr);
+   row-gap: 25px;
+}
+.cover-title h1{
+    font-size: 36px;
+    margin-bottom: 28px;
+    margin-top: 112px;
+    margin-left: 126px;
+    color: white;
+}
+.cover-title{
+    width: 485px;
+    height: 230px;
+    margin-right: 102px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.banner img{
+    width: 329px;
+    height: 259.17px;
+}
+/* .banner{
+    padding: 50px 15px 60px 15px; */
+.players-gallary{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    column-gap: 30px;
+    row-gap: 24px;
+    margin-top: 70px;
+    margin-bottom: 165px;
+    margin-left: 16px;
+    margin-right: 14px;
+}.container{
+    background-color: white;
+    width: 688px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.match-highlight{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.highlights_details_container{
+    width: 300px;
+    height: 230px;
+    margin-left: 23px;
+    margin-bottom: 300px;
+}
+.title-of-highlights h1{
+    font-size: 30px;
+    margin: 0px;
+}
+.banner-img{
+    width: 350px;
+    height: 250px;
+    margin: 60px 5px 30px 5px;
+}
+.group-stage-standings{
+    display: flex;
+    flex-direction: column;
+
+}
+td,th {
+    border: 2px solid black;
+    padding: 0 4px;
+
+}
+.Stats-of-the-tournament{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: left;
+    column-gap: 5px;
+    background-color: honeydew;
+    padding-bottom: 60px;
+}
+.footer-container img{
+    width: 271px;
+    height: 63px;
+}
+}
+
+
